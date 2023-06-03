@@ -1,2 +1,26 @@
-# Blockchain-MedicalRecords
-a Blockchain-Medical Records system offers enhanced data privacy, security, interoperability, and patient control. It has the potential to revolutionize the healthcare industry by streamlining operations, improving patient outcomes, and fostering innovation in medical research and collaboration.
+# Blockchain Medical Record System
+
+## Full Project Demo
+https://www.youtube.com/watch?v=JIswvyxmw3k&t=0s
+
+## Setup
+1. Download Metamask Extension from chrome
+2. Set your wallet to Rinkeby test network
+3. Get ETH from Rinkeby Faucet
+
+## How to Run System
+```
+npm run start
+```
+
+## How to Run Tests
+```
+npm run test
+```
+
+## Whenever there is a change in Solidity code, use these commands
+```
+cd ethereum
+node compile.js
+node deploy.js
+```
